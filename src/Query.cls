@@ -244,7 +244,7 @@ public class Query {
 
         public Fields addFields(String fieldsString) {
             String[] fields = fieldsString.split('\\s*,\\s*', 0);
-            fields.addAll(fields);
+            this.fields.addAll(fields);
             return this;
         }
 
